@@ -1,0 +1,133 @@
+/* universal section */
+.text-center {
+    text-align: center;
+}
+
+
+
+
+/* Header section begins here */
+header {
+    height: 50px;
+    background-color: rgba(2, 46, 177, 0.57);
+}
+
+header h1 {
+    float: left;
+    margin: 0px;
+}
+
+header img {
+    height: 50px;
+}
+
+nav {
+    float: right;
+    position: relative;
+    top: 16px;
+    left: 20px;
+    right: 0px;
+}
+
+nav>ul {
+    list-style-type: none;
+
+}
+
+nav>ul>li {
+    display: inline;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+}
+
+nav>ul>li>a {
+    color: #000;
+    text-decoration: none;
+    border: 1px inset red;
+    border-radius: 15px 15px 0px 0px;
+}
+
+nav>ul>li>a:hover {
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px outset red;
+    border-radius: 0px 0px 15px 15px;
+    transform: scale(0.5, 0.5) rotate(20deg) 
+}
+
+/* Hero section begins here */
+
+.hero {
+    background-image: url('../img/hero.png');
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    padding-top: 100px;
+
+}
+
+.hero>h1 {
+    color: #0000ff;
+    margin: 0px;
+    text-align: center;
+}
+
+/* Sidebar setup */
+
+aside {
+    background-color: #000066;
+    border: 2px solid #f3f;
+    width: 100px;
+    height: 400px;
+    float: left;
+    box-sizing: border-box;
+}
+
+aside>ul {
+    list-style-type: none;
+    padding-left: 0px;
+    margin: 0px;
+}
+aside>ul>li {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+aside>ul>li:hover {
+    background-color: #099;
+    border: 1px dotted #000;
+    font-weight: 900;
+}
+
+aside>ul>li>a {
+    text-decoration: none;
+    color: #fff
+}
+
+/* Main section */ 
+
+main {
+    height: 400px;
+    float: right;
+    width: 90%;
+    padding: 0px 40px;
+    box-sizing: border-box;
+}
+
+/* Footer sectio */
+
+footer {
+    height: 100px;
+    background-color: #4286f4;
+    clear: both;
+}
+
+.social-media {
+    padding-top: 10px;
+
+}
+
+.social-media a {
+    text-decoration: none;
+    color: #000;
+    font-size: 100px;
+}
